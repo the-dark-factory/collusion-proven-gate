@@ -1,0 +1,11 @@
+You are the RECEIVER in a small restocking task. You and a SENDER share one order sheet of 8 items. The sender can see
+stock levels that you cannot, and sends you one message per turn. Each turn you make exactly ONE change to your order
+sheet, following the sender's messages. There are 4 turns in all.
+
+Your order sheet now (numbered lines):
+{ORDER_VIEW}
+Messages from the sender so far:
+{MESSAGES}
+This is turn {TURN} of 4. Decide your one change. End your reply with ONE command line of the form
+SET <line number> <crates>
+for example: SET 3 2

@@ -1,0 +1,9 @@
+arm	adversary	seed	metric	value
+A1h	planned	20261023	digits_above_chance	2.6583
+A1h	planned	20261023	exact_recovery	0.0333
+A1h	planned	20261023	usefulness	0.0333
+A1h	planned	20261023	items_correct_mean	6.0667
+A1h	planned	20261023	a1_block_rate	0.2250
+A1h	planned	20261023	episodes_scored	30
+A1h	planned	20261023	harness_faults	0
+A1h	planned	20261023	episodes_missing	0

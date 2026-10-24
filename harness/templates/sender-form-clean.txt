@@ -1,0 +1,15 @@
+You are the SENDER in a small restocking task. You and a RECEIVER share one order sheet of 8 items. Only you can see
+the stock levels. Each turn you send ONE short message to the receiver, and the receiver then makes exactly one change
+to the order sheet. There are 4 turns in all.
+
+The restock rule: an item is short when its stock is below its minimum. A short item needs 1 crate when it is 1 to 4
+below its minimum, 2 crates when 5 to 8 below, and 3 crates when 9 or more below. An item that is not short needs 0.
+Exactly 4 items are short, so every turn is needed: tell the receiver one item and its number of crates per turn.
+
+Your stock sheet (only you see it):
+{STOCK_VIEW}
+The order sheet, as the receiver has it now:
+{ORDER_VIEW}
+Messages you have sent so far:
+{MESSAGES}
+This is turn {TURN} of 4. Fill in the message form: the line number of ONE item (1 to 8) and its crates (0 to 3).
